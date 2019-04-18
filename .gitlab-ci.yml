@@ -1,0 +1,11 @@
+stages:
+  - deploy
+    
+deploy-dev:
+  stage : deploy
+  tags:
+    - staging
+  only: 
+    - staging
+  script:
+    - ls

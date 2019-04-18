@@ -1,0 +1,102 @@
+﻿
+/*media Start*/
+@media only screen and (min-width: 768px) and (max-width: 1198px){
+	.navbarIn .container { width: 100%;}
+	.navbar-default .navbar-collapse {padding-bottom: 5px;}
+	.navbar-default .navbar-nav > li > a {margin-top: 1px; font-size: 11px; padding: 8px;}
+	.bannerSection {height: auto;}
+	.navbar.navbar-default.navbar-fixed-top.inNavBar.top-nav-collapse a img {  max-width: 70%;}
+	.rateBlock span { font-size: 12px;}
+	.rateBlock p { font-size: 24px;}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-default .navbar-nav > li > a:last-child {margin-left: 0px;}
+	.navbar-default .navbar-nav > li > a {font-size: 12px;padding: 10px;}
+	.navbar-right {margin-right: 0px;}
+	.btn-login { min-width: 30px; padding: 2px 7px !important;}
+	.navbarIn .container { width: 100%;}
+	.navbar-default .navbar-nav > li > a {margin-top: 1px; font-size: 11px; padding: 8px;}
+	.navbar-header {  width: 100px;}
+	.navbar-brand > img {  width: 100%;}
+	.topHeader {  width: calc( 100% - 100px);}
+	ul.nav.navbar-nav.navbar-right {margin: 10px 0 0;padding: 2px;}
+	.mortgageRate .owl-carousel .owl-nav button.owl-prev {
+    left: -20px;
+    top: 5px;
+}
+	.mortgageRate .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: -30px;
+    top: 5px;
+}
+	.topHeader { padding: 4px 0;}
+	.bannerTop {  margin-top: 83px;}
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-default .navbar-nav > li > a {font-size: 14px;padding: 8px 20px;margin-top: 0px;}
+	.navbar-right {margin: 0;}
+	.btn-login {margin: 8px 0px !important; border: none;}
+	.navbar-default .navbarIn {min-height: 60px;}
+	.navbar-brand > img {width: 60%;}
+	.navbar-brand {height: 60px;padding: 10px 15px;}
+	.navbar-collapse { width: 100%; }
+	.topHeader {
+    position: relative;
+    top: -65px;
+    right: 0px;
+	border: none;
+		    width: calc( 100% - 100px);
+}
+	.navbar-toggle{ top: 40px; }
+	.navbar-fixed-top.inNavBar.top-nav-collapse .navbar-toggle { position: relative; top: 9px;  }
+	.navbar-default .navbar-toggle .icon-bar { background-color: #214497;}
+	.navbar-default .navbar-toggle { border-color: transparent;}
+	.bannerSection { height: auto;}
+	.bannerText { padding-right: 0; padding-bottom: 20px;}
+	.bannerText h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 20px;
+}
+	.featureArticles { padding-left: 0;}
+	.mortgageRate { width: 100%; float: none;  padding: 15px;  background: #09b9e3;}
+	.mortageTitle {
+    width: 100%;
+    display: block;
+    text-align: center;
+    height: auto;
+    padding: 20px 0px;
+}
+	.mortageTitle::after { display: none;}
+	.mortgageBlock { height: auto;}
+	.calculatorSection {  padding: 50px 0 60px;}
+	.leftBox, .rightBox {width: 100%;}
+	.topFooter { padding: 30px 0 20px;}
+	ul.footer_link {  margin: 0 0px 15px;}
+	.rightBox .rateInner ul li { list-style-type: none; margin-bottom: 15px;}
+	.rateInner { width: auto;}
+	.rightBox { padding: 50px 0; width: 100%;}
+	.leftBox { padding: 20px 15px; }
+	.leftBox h2 {
+    font-size: 28px;
+    margin: 0 0 40px;
+}
+	.bannerTop { margin-top: 115px;}
+	.serchBlock { padding: 0px 10px;}
+	.featureArticles ul { padding: 15px 0 10px;}
+	.articleBR { position: relative; left: 0px; text-align: left; align-items: flex-start;}
+	.articleBRText { transform: none; display: block; }
+	.info_Block { margin-bottom: 20px;}
+	.topHR, .bottomHr { display: none; }
+	.loadMore_Link {  margin-bottom: 30px;}
+	.rateBlock span {font-size: 12px;}
+	.rateBlock p {font-size: 26px;}
+	.calculatorBlock { margin-bottom: 40px;}
+	.rightBox .rateInner ul li a { font-size: 14px;}
+}
+@media (max-device-width: 480px) and (orientation: landscape){
+	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {  max-height: 100%;}
+	.leftBox h2 {  font-size: 28px; margin: 0 0 40px;}
+	.topHeader { width: calc( 100% - 100px) !important;}
+}
